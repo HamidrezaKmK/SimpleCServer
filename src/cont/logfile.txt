@@ -1,0 +1,1775 @@
+********************
+Time = Wed Jun 15 12:50:36 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = main.html
+try to read file main.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:36 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:36 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:38 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = main.html
+try to read file main.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:38 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:38 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:40 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = secondPage.html
+try to read file secondPage.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:40 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:40 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:43 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:43 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:44 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = ThirdPage.html
+try to read file ThirdPage.html
+couldn't find html file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:44 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:45 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:46 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:46 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:47 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = secondPage.html
+try to read file secondPage.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:47 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:47 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:49 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:50:49 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = main.html
+try to read file main.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:06 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = secondPage.html
+try to read file secondPage.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:08 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:08 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:11 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:11 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:12 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = ThirdPage.html
+try to read file ThirdPage.html
+couldn't find html file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:12 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:51:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:49 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = main.html
+try to read file main.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:49 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:49 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = secondPage.html
+try to read file secondPage.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = ThirdPage.html
+try to read file ThirdPage.html
+couldn't find html file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:52:57 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = secondPage.html
+try to read file secondPage.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:02 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:05 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = ThirdPage.html
+try to read file ThirdPage.html
+couldn't find html file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:07 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:09 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = secondPage.html
+try to read file secondPage.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:10 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:13 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = ThirdPage.html
+try to read file ThirdPage.html
+couldn't find html file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:14 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:16 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = ThirdPage.html
+try to read file ThirdPage.html
+couldn't find html file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:18 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:22 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = favicon.ico
+try to read file favicon.ico
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:53:23 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:55:34 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = main.html
+try to read file main.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:55:34 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 12:55:34 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:47 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = main.html
+try to read file main.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:50 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:51 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = main.html
+try to read file main.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:55 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = secondPage.html
+try to read file secondPage.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:10:59 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = main.html
+try to read file main.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:52 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlag.png
+try to read file irFlag.png
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = secondPage.html
+try to read file secondPage.html
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = fetr.jpg
+try to read file fetr.jpg
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed
+********************
+Time = Wed Jun 15 15:19:54 2022
+Client Connection Accepted
+User =  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+Request = irFlagee.png
+try to read file irFlagee.png
+couldn't find/open file
+Client Connection Closed

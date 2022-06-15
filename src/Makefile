@@ -20,10 +20,11 @@ all:
 	@gcc -Wall -c logger.c
 	@gcc -Wall -c request.c
 	@gcc -Wall -c utils.c
-	@gcc -Wall -c simpleWebServer.c
+	@gcc -Wall -c config.c
 	@if [ $(TYPE) == 'multiThread' ] ; then \
 		gcc -Wall -c multiThreadServer.c; \
-		gcc -o $(path_to_exec_file) -DMULTITHREAD -pthread logger.o request.o utils.o multiThreadServer.o simpleWebServer.o; \
+		gcc -Wall -c simpleWebServer.c; \
+		gcc -o $(path_to_exec_file) -DMULTITHREAD -pthread logger.o config.o request.o utils.o multiThreadServer.o simpleWebServer.o; \
 	else \
 		echo "nothing!"; \
 	fi

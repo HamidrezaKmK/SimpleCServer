@@ -3,6 +3,8 @@
 
 #define LOGSIZE 5000
 
+char *all_logs = (char *) malloc(LOGSIZE);
+
 struct Log {
 	char *msg;
 	size_t msg_cursor;

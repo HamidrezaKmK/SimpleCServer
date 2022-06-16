@@ -36,7 +36,6 @@
 #include <fcntl.h>
 #include <time.h>
 #include <signal.h>
-#include "utils.h"
 
 #define INNERBUFFSIZE 2000
 #define LOGSIZE 5000
@@ -65,8 +64,11 @@ enum { P_READ, P_WRITE };   /* Read, write descriptor of a pipe */
 pid_t all_pids[MAXMAXPROCTHREAD];
 #endif
 
+#ifdef MULTIPROC
 SOCKET fd_server;
+#endif
 
+#ifdef MULTIPROC
 
 // This function returns the absolute path of the location.
 // In order to do that, it concats the content_location (i.e. absolute path to content folder) and the location.
@@ -97,6 +99,7 @@ char *read_webpage(char *webpage_location)
 	webpage[fsize] = 0;
 	return webpage;
 }
+#endif
 
 
 // This function reads the config file and initialize variables such as content location, port number, log file, maximum thread/processes, etc.
@@ -366,6 +369,7 @@ void check_all_processes()
 //It checks all the processes (when multi-processing is used) to gather all the log information.
 //It eventually writes all the logs on the log file.
 
+#ifdef MULTIPROC
 void IntHandler(int sig)
 {
 	#ifndef MULTIPROC
@@ -377,7 +381,7 @@ void IntHandler(int sig)
 	#endif
 	#ifdef MULTIPROC
 	check_all_processes();
-	#endif
+	
 	printf("Interupt detected ...\n All Logs\n%s\n", all_logs);
 	FILE * logfile;
 	char *address = relative_file_address(LogFile);
@@ -393,25 +397,69 @@ void IntHandler(int sig)
 	}
 	closesocket(fd_server);
 	exit(0);
+	#endif
 }
-
+#endif
 
 //Main function.
 
 int main(int argc, char *argv[])
 {
-	printf("Starting server ...");
-	signal(SIGINT, IntHandler);
+	printf("Starting server ...\n");
 	#ifdef MULTIPROC
+	signal(SIGINT, IntHandler);
 	read_config_file();
 	#endif
 
 
 	#ifdef MULTITHREAD
-	construct_workers(10, read_config_file("server.conf"));
-	printf("%d", all_workers[0].config->PORTNUM);
+	printf("multithread mode setup ...\n");
+	signal(SIGINT, interrupt_handler);
+	struct Config *conf = read_config_file("configurations/server.conf");
+	printf("Configurations:\n");
+	print_configurations(conf);
+	// construct 10 workers with the same configuration
+	construct_workers(10, conf);
+	SOCKET fd_client;
+
+	fd_server = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+	
+	if (fd_server == -1)
+	{
+		printf("socket failed with error\n");
+		return 1;
+	}
+	socklen_t sin_len;
+	struct sockaddr_in server_addr;
+	struct sockaddr_in client_addr;
+	sin_len = sizeof(client_addr);
+
+	server_addr.sin_family = AF_INET;
+	server_addr.sin_addr.s_addr = INADDR_ANY;	// could be inet_addr("127.0.0.1");
+	server_addr.sin_port = htons(conf->PORTNUM);
+
+	if (bind(fd_server, (SOCKADDR*) &server_addr, sizeof(server_addr)) == SOCKET_ERROR)
+	{
+		printf("bind failed with error");
+		closesocket(fd_server);
+		#ifdef WINDOWS
+		WSACleanup();
+		#endif
+		return 1;
+	}
+	
+	if (listen(fd_server, 10) == SOCKET_ERROR)
+	{
+		printf("listen failed with error");
+		closesocket(fd_server);
+		#ifdef WINDOWS
+		WSACleanup();
+		#endif
+		return 1;
+	}
 	#endif
 
+	#ifdef MULTIPROC
 	SOCKET fd_client;
 
 	fd_server = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
@@ -452,22 +500,28 @@ int main(int argc, char *argv[])
 		#endif
 		return 1;
 	}
-	#ifdef MULTIPROC
 	int free_proc;
 	free_proc = 0;
-	#endif
 	int ind;
-
 	// Here when we accept a connection, based on the setting,
 	// we dedicate a thread or a process to handle the client.
-
+	#endif
+	
 	while (1)
 	{
+		printf("Waiting for client ...\n");
+		fflush(stdout);
 		fd_client = accept(fd_server, (struct sockaddr *) &client_addr, &sin_len);
-
+		printf("New client connected on socket: %d\n", fd_client);
+		printf("Number of busy workers: %d\n", get_number_of_busy_workers());
+		fflush(stdout);
 		#ifdef MULTITHREAD
 		// replace with some mex function find free
 		struct Worker *current_worker = get_free_worker(fd_client);
+		if (current_worker == NULL) {
+			printf("No free workers were available -- try again later!\n");
+			continue;
+		}
 		handle_job(current_worker);
 		continue;
 
@@ -481,10 +535,10 @@ int main(int argc, char *argv[])
 			check_all_processes();
 		}
 		ind = free_proc;
-		#endif
+
 
 		fd[ind] = fd_client;
-
+		#endif
 		// Creates a new 
 		
 		// This Thread is going to handle the request.

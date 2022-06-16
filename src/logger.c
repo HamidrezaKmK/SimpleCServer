@@ -25,13 +25,12 @@ void clearlog(struct Log * log) {
 	memset(log->msg, 0, LOGSIZE);
 	memset(log->time, 0, LOGSIZE);
 	memset(log->user_info, 0, LOGSIZE);
+	log->msg_cursor = 0;
 }
 
 void add_msg(struct Log *log, char *msg) {
-	int t = strlen(msg);
-	msg[t] = '\n';
-	msg[t + 1] = '\0';
 	snprintf(log->msg + log->msg_cursor, LOGSIZE, msg);
+	snprintf(log->msg + log->msg_cursor + strlen(msg), LOGSIZE, "\n");
 	log->msg_cursor = strlen(log->msg);
 }
 

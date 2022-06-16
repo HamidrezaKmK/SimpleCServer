@@ -1,7 +1,11 @@
 #ifndef UTILS_H_   /* Include guard */
 #define UTILS_H_
 
+#include <stdlib.h>
+#include <string.h> 
+#include <stdio.h>
+
 int min(int a, int b);
 char *read_webpage(char *webpage_location);
-char* relative_file_address(char *location);
+char* path_join(char* content_location, char *location);
 #endif

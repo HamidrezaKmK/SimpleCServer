@@ -19,4 +19,6 @@ struct Config {
 
 struct Config* read_config_file(char *config_file_name);
 
+void print_configurations(struct Config *conf);
+
 #endif /* configFile_h */

@@ -1,6 +1,8 @@
 #ifndef LOGGER_H_   /* Include guard */
 #define LOGGER_H_
 
+#include <stddef.h>
+
 #define LOG_SIZE 200000
 #define MSG_SIZE 5000
 #define TIME_SIZE 500
@@ -25,5 +27,9 @@ void set_user_info(struct Log *log , char *user_info);
 void add_to_log(struct Log *log);
 
 char * get_all_logs();
+
+char * streamify(struct Log *log);
+
+void add_stream_to_log(char *stream);
 
 #endif

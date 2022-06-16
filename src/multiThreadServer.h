@@ -6,6 +6,7 @@
 #include "config.h"
 #include "utils.h"
 #include "request.h"
+#include "serverUtils.h"
 
 #define MAX_WORKERS 10
 
@@ -20,14 +21,10 @@ struct Worker {
 	struct Config * config;
 };
 
-struct Worker* get_free_worker(int socket);  /* An example function declaration */
-
 void handle_job(struct Worker * worker);
 
-void construct_workers(int n, struct Config *conf);
-
-int get_number_of_busy_workers();
-
 void interrupt_handler(int sig);
+
+void flush_log(struct Worker *worker);
 
 #endif

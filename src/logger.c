@@ -6,6 +6,7 @@
 #include "logger.h"
 
 char all_logs[LOG_SIZE];
+char intermediate_log[MSG_SIZE + TIME_SIZE + USER_INFO_SIZE + 100];
 
 void settime(struct Log * log) {
 	
@@ -41,13 +42,24 @@ void set_user_info(struct Log *log, char *user_info) {
 	snprintf(log->user_info, USER_INFO_SIZE, user_info);
 }
 
+char * streamify(struct Log *log) {
+	memset(intermediate_log, 0, sizeof(intermediate_log));
+	strcat(intermediate_log, "TIME: ");
+	strcat(intermediate_log, log->time);
+	strcat(intermediate_log, "USER: ");
+	strcat(intermediate_log, log->user_info);
+	strcat(intermediate_log, "MESSAGE_HISTORY:\n");
+	strcat(intermediate_log, log->msg);
+	return intermediate_log;
+}
+
+void add_stream_to_log(char *stream) {
+	strcat(all_logs, stream);
+}
+
 void add_to_log(struct Log *log) {
-	strcat(all_logs, "TIME: ");
-	strcat(all_logs, log->time);
-	strcat(all_logs, "USER: ");
-	strcat(all_logs, log->user_info);
-	strcat(all_logs, "MESSAGE_HISTORY:\n");
-	strcat(all_logs, log->msg);
+	char *stream = streamify(log);
+	add_stream_to_log(stream);
 }
 
 char * get_all_logs() {

@@ -9,6 +9,7 @@
 #include <arpa/inet.h>
 #include <sys/sendfile.h>
 #include <fcntl.h>
+#include <pthread.h>
 
 int free_worker = 0;
 int WORKER_COUNT = MAX_WORKERS;

@@ -102,6 +102,7 @@ char *read_webpage(char *webpage_location)
 // This function reads the config file and initialize variables such as content location, port number, log file, maximum thread/processes, etc.
 // It reads from the /etc/simpleWebServer/server.conf
 
+#ifdef MULTIPROC
 void read_config_file()
 {
 	FILE * config_file;
@@ -168,7 +169,7 @@ void read_config_file()
 	}
 	fclose(config_file);
 }
-
+#endif
 
 // This function reads the user's information (which is in the message of the client to server).
 
@@ -407,7 +408,6 @@ int main(int argc, char *argv[])
 
 
 	#ifdef MULTITHREAD
-	printf("HOWDY!")
 	construct_workers(10, read_config_file("server.conf"));
 	printf("%d", all_workers[0].config->PORTNUM);
 	#endif
@@ -452,10 +452,6 @@ int main(int argc, char *argv[])
 		#endif
 		return 1;
 	}
-	#ifdef MULTITHREAD
-	int free_thread;
-	free_thread = 0;
-	#endif
 	#ifdef MULTIPROC
 	int free_proc;
 	free_proc = 0;
@@ -471,7 +467,7 @@ int main(int argc, char *argv[])
 
 		#ifdef MULTITHREAD
 		// replace with some mex function find free
-		current_worker = get_free_worker(fd_client);
+		struct Worker *current_worker = get_free_worker(fd_client);
 		handle_job(current_worker);
 		continue;
 

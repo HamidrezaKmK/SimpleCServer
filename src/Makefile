@@ -17,14 +17,18 @@ ifndef PLATFORM
 endif
 
 all:
-	@gcc -Wall -c logger.c
-	@gcc -Wall -c request.c
-	@gcc -Wall -c utils.c
-	@gcc -Wall -c config.c
+	
 	@if [ $(TYPE) == 'multiThread' ] ; then \
-		gcc -Wall -c multiThreadServer.c; \
+		gcc -Wall -c logger.c; \
+		gcc -Wall -c request.c; \
+		gcc -Wall -c utils.c; \
+		gcc -Wall -c config.c; \
+		gcc -Wall -c -pthread multiThreadServer.c; \
+		gcc -Wall -c -DMULTITHREAD -pthread simpleWebServer.c; \
+		gcc -pthread -DMULTITHREAD -o $(path_to_exec_file) logger.o config.o request.o utils.o multiThreadServer.o simpleWebServer.o; \
+	elif [ $(TYPE) == 'multiProc' ]; then \
 		gcc -Wall -c simpleWebServer.c -DMULTITHREAD -pthread; \
-		gcc -o $(path_to_exec_file) logger.o config.o request.o utils.o multiThreadServer.o simpleWebServer.o; \
+		gcc -o $(path_to_exec_file) simpleWebServer.o; \
 	else \
 		echo "nothing!"; \
 	fi

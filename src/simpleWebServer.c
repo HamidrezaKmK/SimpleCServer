@@ -4,12 +4,9 @@
  * A lot of multiprocessing jewel hidden in this code!
 \*/
 
-#define DEBUG
-
 #include <unistd.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
-#include <sys/sendfile.h>
 
 #include "serverUtils.h"
 

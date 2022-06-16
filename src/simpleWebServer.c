@@ -1,7 +1,7 @@
 
 /*\
  * Web server code created by C
- * a lot of multiprocessing jewel hidden in this code!
+ * A lot of multiprocessing jewel hidden in this code!
 \*/
 
 #define DEBUG

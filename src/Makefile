@@ -1,9 +1,7 @@
-source_code="simpleWebServer.c"
-exec_file="my_server"
+exec_file="simple-c-server"
 
-path_to_exec_file="../bin/$(exec_file)"
-path_to_content_files_unix := $(shell pwd)/../cont/
-path_to_content_files_windows := $(shell pwd)/../WindowsCont/
+exec_dir := "../bin/$(exec_file)"
+content_dir := $(shell pwd)/../cont/
 NEW_PATH := $(shell pwd)/../bin:$
 
 SHELL := /bin/bash
@@ -17,20 +15,21 @@ ifndef PLATFORM
 endif
 
 all:
-	@gcc -Wall -c logger.c;
-	@gcc -Wall -c request.c;
-	@gcc -Wall -c utils.c;
-	@gcc -Wall -c config.c;
+	@mkdir -p obj
+	@gcc -Wall -c logger.c -o obj/logger.o;
+	@gcc -Wall -c request.c -o obj/request.o;
+	@gcc -Wall -c utils.c -o obj/utils.o;
+	@gcc -Wall -c config.c -o obj/config.o;
 	@if [ $(TYPE) == 'multiThread' ] ; then \
-		gcc -Wall -c -pthread multiThreadServer.c; \
-		gcc -Wall -c -pthread -DMULTITHREAD serverUtils.c; \
-		gcc -Wall -c -DMULTITHREAD -pthread simpleWebServer.c; \
-		gcc -pthread -DMULTITHREAD -o $(path_to_exec_file) logger.o config.o request.o utils.o multiThreadServer.o serverUtils.o simpleWebServer.o; \
+		gcc -Wall -c -pthread multiThreadServer.c -o obj/multiThreadServer.o; \
+		gcc -Wall -c -pthread -DMULTITHREAD serverUtils.c -o obj/serverUtils.o; \
+		gcc -Wall -c -DMULTITHREAD -pthread simpleWebServer.c -o obj/simpleWebServer.o; \
+		gcc -pthread -DMULTITHREAD -o $(exec_dir) obj/logger.o obj/config.o obj/request.o obj/utils.o obj/multiThreadServer.o obj/serverUtils.o obj/simpleWebServer.o; \
 	elif [ $(TYPE) == 'multiProcess' ]; then \
-		gcc -Wall -c multiProcessServer.c; \
-		gcc -Wall -c -DMULTIPROC serverUtils.c; \
-		gcc -Wall -c -DMULTIPROC simpleWebServer.c; \
-		gcc -DMULTIPROC -o $(path_to_exec_file) logger.o config.o request.o utils.o multiProcessServer.o serverUtils.o simpleWebServer.o; \
+		gcc -Wall -c multiProcessServer.c -o obj/multiProcessServer.o; \
+		gcc -Wall -c -DMULTIPROC serverUtils.c -o obj/serverUtils.o; \
+		gcc -Wall -c -DMULTIPROC simpleWebServer.c -o obj/simpleWebServer.o; \
+		gcc -DMULTIPROC -o $(exec_dir) obj/logger.o obj/config.o obj/request.o obj/utils.o obj/multiProcessServer.o obj/serverUtils.o obj/simpleWebServer.o; \
 	else \
 		echo "nothing!"; \
 	fi
@@ -43,7 +42,6 @@ install:
 #	@echo export PATH="$(NEW_PATH)"PATH >> ~/.bashrc;
 #	@source ~/.bashrc;
 #	@echo Installed;
-	@echo Add conf to /etc/simpleWebServer;
 	@mkdir -p /etc/simpleWebServer/
 	@rm -f /etc/simpleWebServer/*
 	@cp -r configurations/server.conf configurations/WindowsServer.conf /etc/simpleWebServer
@@ -53,4 +51,4 @@ install:
 	@echo Done
 clean:
 	@rm -f ../bin/*;
-	@rm *.o
+	@rm -rf obj

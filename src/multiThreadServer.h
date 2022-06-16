@@ -5,6 +5,7 @@
 #include "logger.h"
 #include "config.h"
 #include "utils.h"
+#include "request.h"
 
 #define MAX_WORKERS 10
 

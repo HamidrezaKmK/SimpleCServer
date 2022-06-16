@@ -35,7 +35,7 @@ all:
 	@echo "Server will work $(TYPE) on $(PLATFORM)";
 
 install:
-#@echo Installing ...;
+	@echo Installing ...
 	@mkdir -p ../bin;
 #	@echo Add to PATH;
 #	@echo export PATH="$(NEW_PATH)"PATH >> ~/.bashrc;
@@ -50,5 +50,5 @@ install:
 	@echo WebContentLocation = $(path_to_content_files_windows) >> /etc/simpleWebServer/WindowsServer.conf
 	@echo Done
 clean:
-	@rm -f $(path_to_exec_file);
+	@rm -f ../bin/*;
 	@rm *.o

@@ -42,6 +42,8 @@ struct Config* read_config_file(char *config_file_name) {
             strcpy(config->LogFile, token_2);
         } else if (strcmp(token_1, "ErrorHTML") == 0) {
             strcpy(config->ErrorHTML, token_2);
+        } else if (strcmp(token_1, "EXECUTABLE_LOCATION") == 0) {
+            strcpy(config->EXECUTABLE_LOCATION, token_2);
         }
     }
     

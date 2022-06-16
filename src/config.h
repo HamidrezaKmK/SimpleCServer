@@ -14,7 +14,8 @@ struct Config {
     char WebContentLocation[STRING_SIZE],
     StartingPageName[STRING_SIZE],
     LogFile[STRING_SIZE],
-    ErrorHTML[STRING_SIZE];
+    ErrorHTML[STRING_SIZE],
+    EXECUTABLE_LOCATION[STRING_SIZE];
 };
 
 struct Config* read_config_file(char *config_file_name);

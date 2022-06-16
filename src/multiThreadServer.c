@@ -1,6 +1,4 @@
 #include "multiThreadServer.h"
-#include "request.h"
-#include "utils.h"
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,18 +11,22 @@
 
 int free_worker = 0;
 int WORKER_COUNT = MAX_WORKERS;
-struct Worker *all_workers;
+struct Worker *all_workers = NULL;
+struct Config *global_config = NULL;
 
 void construct_workers(int n, struct Config *conf) {
+	global_config = conf;
 	WORKER_COUNT = n;
-	all_workers = malloc(WORKER_COUNT * sizeof(struct Worker *));
+	all_workers = (struct Worker *) malloc(WORKER_COUNT * sizeof(struct Worker));
 	for (int i = 0; i < n; i++) {
 		struct Worker *current_worker = all_workers + i;
+
 		current_worker->id = i;
 		current_worker->busy = 0;
 
 		// one config for all
 		current_worker->config = conf;
+
 		current_worker->log = (struct Log *) malloc(sizeof(struct Log));
 		current_worker->log->initialized = 0;
 	}
@@ -44,6 +46,12 @@ struct Worker* get_free_worker(int socket) {
 	return ret;
 }
 
+/* 
+The main handle request function:
+
+given a worker id it uses the worker to handle an HTTP request
+after the request is done, the log is added to the end of the all_logs in logger.h
+*/
 void *handle_request(void * worker_id) {
 	int worker_index = *(int *)worker_id;
 	struct Worker *worker = &all_workers[worker_index];
@@ -56,6 +64,7 @@ void *handle_request(void * worker_id) {
 		add_msg(worker->log, "no connection with client -- connection failed!");
 		worker->busy = 0;
 		close(worker->socket);
+		add_to_log(worker->log);
 		return (void *) 0;
 	}
 	add_msg(worker->log, "connection established!");
@@ -69,6 +78,7 @@ void *handle_request(void * worker_id) {
 		add_msg(worker->log, "the sent request is empty!");
 		worker->busy = 0;
 		close(worker->socket);
+		add_to_log(worker->log);
 		return (void *) 0;
 	}
 
@@ -106,9 +116,12 @@ void *handle_request(void * worker_id) {
 	add_msg(worker->log, "client connection closed!");
 	worker->busy = 0;
 	close(worker->socket);
+	add_to_log(worker->log);
 	return (void*) 0;
 }
 
+// The following function creates a new thread using worker's thread and handles any request 
+// that is currently buffered in the worker's socket
 void handle_job(struct Worker * worker) {
 	void * ret_val = pthread_create(&worker->thread, NULL, &handle_request, (void *) &worker->id);
 	if (ret_val != 0) {
@@ -118,6 +131,7 @@ void handle_job(struct Worker * worker) {
 	}
 }
 
+// The following function returns an integer equal to the number of workers that are currently busy
 int get_number_of_busy_workers() {
 	int ret = 0;
 	for (int i = 0; i < WORKER_COUNT; i++)
@@ -127,22 +141,32 @@ int get_number_of_busy_workers() {
 }
 
 void interrupt_handler(int sig)
-{
-	//printf("Interupt detected ...\n All Logs\n%s\n", all_logs);
-	// TODO: Complete this:
+{	
+	printf("Handling interrupt ...\n");
+	fflush(stdout);
 
-	// FILE * logfile;
-	// char *address = relative_file_address(LogFile);
-	// printf("\n save logs to: %s\n", address);
-	// logfile = fopen(address, "a");
-	// if(logfile == NULL)
-	// {
-	// 	printf("could not open logfile.\n saving logs failed.\n");
-	// }
-	// else
-	// {
-	// 	fprintf(logfile, "%s", all_logs);
-	// }
+	// wait for all threads to end and store their log files
+	for (int i = 0; i < WORKER_COUNT; i++) {
+		struct Worker *current_worker = all_workers + i;
+		if (current_worker->busy)
+			pthread_join(current_worker->thread, NULL);
+	}
+
+	// Append to the logfile specified in the config
+	char *address_all_logs = path_join(global_config->EXECUTABLE_LOCATION, global_config->LogFile);
+	char *address_new_logs = path_join(global_config->EXECUTABLE_LOCATION, "last-log.txt");
+	
+	printf("Saving logfiles to %s and %s\n", address_all_logs, address_new_logs);
+
+	FILE *all_log_file = fopen(address_all_logs, "a");
+	FILE *new_log_file = fopen(address_new_logs, "w");
+	if (all_log_file == NULL || new_log_file == NULL) {
+	 	printf("could not open logfile!\n");
+		exit(1);
+	}
+	
+	fprintf(all_log_file, "%s", get_all_logs());
+	fprintf(new_log_file, "%s", get_all_logs());
 	close(fd_server);
 	exit(0);
 }

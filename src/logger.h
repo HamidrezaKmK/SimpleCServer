@@ -1,9 +1,10 @@
 #ifndef LOGGER_H_   /* Include guard */
 #define LOGGER_H_
 
-#define LOGSIZE 5000
-
-char *all_logs = (char *) malloc(LOGSIZE);
+#define LOG_SIZE 200000
+#define MSG_SIZE 5000
+#define TIME_SIZE 500
+#define USER_INFO_SIZE 600
 
 struct Log {
 	char *msg;
@@ -20,5 +21,9 @@ void add_msg(struct Log * log, char * msg);
 void clearlog(struct Log * log);
 
 void set_user_info(struct Log *log , char *user_info);
+
+void add_to_log(struct Log *log);
+
+char * get_all_logs();
 
 #endif

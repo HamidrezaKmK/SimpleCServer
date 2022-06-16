@@ -4,6 +4,14 @@
 #include <stdlib.h>
 #include <string.h> 
 #include <stdio.h>
+#ifdef __MAC__
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <sys/uio.h>
+#endif
+#ifdef __LINUX__
+    #include <sys/sendfile.h>
+#endif
 
 int min(int a, int b);
 char *read_webpage(char *webpage_location);

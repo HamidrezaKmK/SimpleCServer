@@ -39,9 +39,10 @@ char *read_webpage(char *webpage_location)
 
 void sendfile_wrapper(int my_socket, int fdesc) {
     
-    #if __MAC__
-        sendfile(my_socket, fdesc, NULL, 200000);
-    #elif __LINUX__
+    #ifdef __MAC__
+        sendfile(my_socket, fdesc, NULL, 200000, NULL, NULL);
+    #endif
+    #ifdef __LINUX__
         sendfile(my_socket, fdesc, NULL, 200000);
     #endif
 }

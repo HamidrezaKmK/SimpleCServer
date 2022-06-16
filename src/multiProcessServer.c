@@ -24,7 +24,6 @@ void flush_log(struct Worker *worker) {
 }
 
 void handle_job(struct Worker * worker) {
-	// TODO
     if (pipe(worker->pipes) != 0) {
         printf("Could not pipe!\n");
         exit(1);
@@ -59,7 +58,7 @@ void interrupt_handler(int sig)
 	printf("Handling interrupt ...\n");
 	fflush(stdout);
     
-    // TODO: kill all the busy workers processes
+    // TODO: kill all the busy workers processes (This is Hamidreza's task)
 
     save_logs();
 }

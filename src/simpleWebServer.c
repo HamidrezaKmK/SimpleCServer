@@ -28,6 +28,8 @@ int main(int argc, char *argv[])
 	// construct 10 workers with the same configuration
 	construct_workers(10, conf);
 	
+	// TODO: This place is very similar to Arshia's please change it ... 
+	
 	fd_server = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 	
 	if (fd_server == -1)

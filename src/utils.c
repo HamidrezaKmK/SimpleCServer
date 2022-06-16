@@ -11,7 +11,7 @@ int min(int a, int b) {
 // This function returns the absolute path of the location.
 // In order to do that, it concats the content_location (i.e. absolute path to content folder) and the location.
 
-char* path_join(char* content_location, char *location){
+char* path_join(char* content_location, char *location) {
 	char *rel_location=malloc(strlen(location)+1+strlen(content_location));
 	strcpy(rel_location, content_location);
 	strcat(rel_location, location);

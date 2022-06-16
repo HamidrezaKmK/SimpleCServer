@@ -22,6 +22,8 @@ after the request is done, the log is added to the end of the all_logs in logger
 
 void *handle_request(void * worker_id) {
 	
+    // TODO: change if very close to arshia's code
+    
     int worker_index = *(int *)worker_id;
 	struct Worker *worker = &all_workers[worker_index];
 

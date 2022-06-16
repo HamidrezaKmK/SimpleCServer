@@ -7,7 +7,8 @@
 struct Request* parse_request(char * buf, struct Config *conf) {
 	struct Request *req = (struct Request *) malloc(sizeof(struct Request));
 
-	// TODO: change this into a cleaner code
+	// TODO: change this into a cleaner code that is not reminiscent of Arshia's
+
 	char *start = strstr(buf, "User-Agent:") + 12;
 	char *end = strstr(start, "\n");
 	int length = (end - start);
@@ -17,6 +18,7 @@ struct Request* parse_request(char * buf, struct Config *conf) {
 	
 	req->user_info = user_info;
 
+	// TODO: change this into a cleaner code that is not reminiscent of Arshia's
 
 	char location[INNER_BUFFER_SIZE];
 	int start_loc = 5;

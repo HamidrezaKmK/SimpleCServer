@@ -9,6 +9,8 @@
 #include "multiProcessServer.h"
 #endif
 
+#include "utils.h"
+
 #define MAX_WORKERS 10
 
 int free_worker;

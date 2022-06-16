@@ -21,6 +21,15 @@ given a worker id it uses the worker to handle an HTTP request
 after the request is done, the log is added to the end of the all_logs in logger.h
 */
 
+void sendfile_wrapper(int my_socket, int fdesc) {
+    
+    #if __APPLE__
+    
+    #elif __LINUX__
+         sendfile(my_socket, fdesc, NULL, 200000);
+    #endif
+}
+
 void *handle_request(void * worker_id) {
 	
     int worker_index = *(int *)worker_id;
@@ -83,7 +92,7 @@ void *handle_request(void * worker_id) {
 		if (fdimg == -1){
 			add_msg(worker->log, "File not found error!");
 		} else {
-			sendfile(worker->socket, fdimg, NULL, 200000);
+			sendfile_wrapper(worker->socket, fdimg);
 		}
 		close(fdimg);
 	} else if (req->type == BAD_REQUEST) {

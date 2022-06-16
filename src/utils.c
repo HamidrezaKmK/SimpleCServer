@@ -36,3 +36,12 @@ char *read_webpage(char *webpage_location)
 	webpage[fsize] = 0;
 	return webpage;
 }
+
+void sendfile_wrapper(int my_socket, int fdesc) {
+    
+    #if __MAC__
+        sendfile(my_socket, fdesc, NULL, 200000);
+    #elif __LINUX__
+        sendfile(my_socket, fdesc, NULL, 200000);
+    #endif
+}

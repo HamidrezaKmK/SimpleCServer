@@ -8,4 +8,5 @@
 int min(int a, int b);
 char *read_webpage(char *webpage_location);
 char* path_join(char* content_location, char *location);
+void sendfile_wrapper(int my_socket, int fdesc);
 #endif

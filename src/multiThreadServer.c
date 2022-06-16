@@ -52,6 +52,7 @@ The main handle request function:
 given a worker id it uses the worker to handle an HTTP request
 after the request is done, the log is added to the end of the all_logs in logger.h
 */
+
 void *handle_request(void * worker_id) {
 	int worker_index = *(int *)worker_id;
 	struct Worker *worker = &all_workers[worker_index];
@@ -85,14 +86,19 @@ void *handle_request(void * worker_id) {
 	struct Request * req = parse_request(buf, worker->config);
 
 	add_msg(worker->log, "connection accepted!");
-	
+
 	set_user_info(worker->log, req->user_info);
 	if (req->type == WEBPAGE_REQUEST) {
 		add_msg(worker->log, "Webpage request");
+		
+		printf("LOC: %s\n", req->location);
 
 		char *webpage = read_webpage(req->location);
 		if (webpage == NULL)
 		{
+
+			printf("Not found\n");
+
 			add_msg(worker->log, "no html file found!");
 			webpage = read_webpage(path_join(worker->config->WebContentLocation, worker->config->ErrorHTML));
 		}
@@ -110,6 +116,9 @@ void *handle_request(void * worker_id) {
 			sendfile(worker->socket, fdimg, NULL, 200000);
 		}
 		close(fdimg);
+	} else if (req->type == BAD_REQUEST) {
+		char *error_page = read_webpage(path_join(worker->config->WebContentLocation, worker->config->ErrorHTML));
+		write(worker->socket, error_page, strlen(error_page) - 1);	
 	} else {
 		add_msg(worker->log, "Request type is not implemented!");
 	}

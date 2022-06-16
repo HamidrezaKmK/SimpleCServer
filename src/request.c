@@ -35,8 +35,14 @@ struct Request* parse_request(char * buf, struct Config *conf) {
 
 	if (!strncmp(location + (end_loc - start_loc - 4), "html", 4)) {
 		req->type = WEBPAGE_REQUEST;
-	} else {
+	} else if (!strncmp(location + (end_loc - start_loc - 3), "jpg", 3)) {
 		req->type = IMAGE_REQUEST;
+	} else if (!strncmp(location + (end_loc - start_loc - 4), "jpeg", 4)) {
+		req->type = IMAGE_REQUEST;
+	} else if (!strncmp(location + (end_loc - start_loc - 3), "ico", 3)) {
+		req->type = IMAGE_REQUEST;
+	} else {
+		req->type = BAD_REQUEST;
 	}
 
 	return req;

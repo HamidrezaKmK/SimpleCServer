@@ -5,7 +5,7 @@
 
 #define INNER_BUFFER_SIZE 2000
 
-enum request_type {WEBPAGE_REQUEST, IMAGE_REQUEST};
+enum request_type {WEBPAGE_REQUEST, IMAGE_REQUEST, BAD_REQUEST};
 
 struct Request {
 	char * user_info;

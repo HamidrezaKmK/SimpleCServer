@@ -1,3 +1,4 @@
+
 exec_file="simple-c-server"
 
 exec_dir := "../bin/$(exec_file)"
@@ -11,14 +12,20 @@ ifndef TYPE
 endif
 
 ifndef PLATFORM
-	PLATFORM="unix"
+	PLATFORM="__LINUX__"
 endif
 
 all:
 	@mkdir -p obj
 	@gcc -Wall -c logger.c -o obj/logger.o;
 	@gcc -Wall -c request.c -o obj/request.o;
-	@gcc -Wall -c utils.c -o obj/utils.o;
+	@if [ $(PLATFORM) == "__LINUX__" ] ; then \
+		gcc -Wall -c -D__LINUX__ utils.c -o obj/utils.o; \
+	elif [ $(PLATFORM) == "__MAC__" ] ; then \
+		gcc -Wall -c -D__MAC__ utils.c -o obj/utils.o; \
+	else \
+		echo "PLATFORM $PLATFORM incorrect"; \
+	fi
 	@gcc -Wall -c config.c -o obj/config.o;
 	@if [ $(TYPE) == 'multiThread' ] ; then \
 		gcc -Wall -c -pthread multiThreadServer.c -o obj/multiThreadServer.o; \

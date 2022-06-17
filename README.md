@@ -23,11 +23,11 @@ We can compile and bind th .c files using Makefile.
 ### How to Run the Project?
 Please follow this procedure:
 1. Go to the `src` directory.
-2. Run `make install` to place the executable file in `/usr/local/bin/`.
-3. Run `make clean` in case you want to delete the previous log files.
+2. Run `make clean` in case you want to delete the previous log files.
 3. Run `make all TYPE=(TYPE) PLATFORM=__(PLATFORM)__`, where TYPE can be multiProcess or multiThread, and PLATFORM can be either MAC or LINUX.
-4. From now on you can easily run `simple-c-server` to set up the web server.
-5. Open Firefox browser and insert `localhost:8080`.
+4. Run `make install` to place the executable file in `/usr/local/bin/`.
+5. From now on you can easily run `simple-c-server` to set up the web server.
+6. Open Firefox browser and insert `localhost:8080`.
 
 ### Webpages
 

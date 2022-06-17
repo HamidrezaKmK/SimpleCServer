@@ -45,6 +45,7 @@ all:
 install:
 	@echo Installing ...
 	@mkdir -p ../bin;
+	@mv ../bin/simple-c-server /usr/local/bin/
 #	@echo Add to PATH;
 #	@echo export PATH="$(NEW_PATH)"PATH >> ~/.bashrc;
 #	@source ~/.bashrc;

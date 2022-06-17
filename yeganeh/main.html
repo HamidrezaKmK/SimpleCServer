@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>W3.CSS Template</title>
+        <title>Simple Web Server - main</title>
         <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
                 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -33,7 +33,7 @@
                     <a href="main.html#" class="w3-button w3-block w3-black">HOME</a>
                 </div>
                 <div class="w3-col s6">
-                    <a href="secondPage.html#about" class="w3-button w3-block w3-black">ABOUT</a>
+                    <a href="secondPage.html#" class="w3-button w3-block w3-black">HOW TO RUN THE PROJECT?</a>
                 </div>
             </div>
         </div>
@@ -55,15 +55,8 @@
             <div class="w3-container" id="about">
                 <div class="w3-content" style="max-width:700px">
                     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE PROJECT</span></h5>
-                    <p>Our Project...</p>
-                    <p>Our Project again!</p>
-                    <div class="w3-panel w3-leftbar w3-light-grey">
-                        <p><i>"Our project but classy" Fresh is the new smart!</i></p>
-                        <p>os os os</p>
-                    </div>
-                    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-                        <p><strong>Bold 1:</strong> little 1</p>
-                        <p><strong>Bold 2:</strong> little 2</p>
+                    <p>In this project, we present a web server that serves the users' requests using multiple threads or processes. </p>
+                        <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
                         </div>
             </div>
             
@@ -71,49 +64,49 @@
             <div class="w3-container" id="2 cols">
                 <div class="w3-content" style="max-width:700px">
                     
-                    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE DESC</span></h5>
+                    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Project Files</span></h5>
                     
                     <div class="w3-row w3-center w3-card w3-padding">
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'col1');" id="myLink">
-                            <div class="w3-col s6 tablink">col1</div>
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'ConfigFile');" id="myLink">
+                            <div class="w3-col s6 tablink">ConfigFile</div>
                         </a>
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'col2');">
-                            <div class="w3-col s6 tablink">col2</div>
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'Makefile');">
+                            <div class="w3-col s6 tablink">Makefile</div>
                         </a>
                     </div>
                     
-                    <div id="col1" class="w3-container menu w3-padding-48 w3-card">
-                        <h5>Item 1</h5>
-                        <p class="w3-text-grey">desc</p><br>
+                    <div id="ConfigFile" class="w3-container menu w3-padding-48 w3-card">
+                        <h5>PROTNUM</h5>
+                        <p class="w3-text-grey">This paramter is used to define the Port Number (default setting = 8080).</p><br>
                         
-                        <h5>Item 2</h5>
-                        <p class="w3-text-grey">desc</p><br>
+                        <h5>IBUFSIZE</h5>
+                        <p class="w3-text-grey">The buffer size is for communication of sockets and between multiple processes (default setting = 25600).</p><br>
                         
-                        <h5>Item 3</h5>
-                        <p class="w3-text-grey">desc</p><br>
+                        <h5>EXECUTABLE_LOCATION</h5>
+                        <p class="w3-text-grey">This string defines the address of the file containing the executable (default setting = ../bin/).</p><br>
                         
-                        <h5>Item 4</h5>
-                        <p class="w3-text-grey">desc</p><br>
+                        <h5>StartingPageName</h5>
+                        <p class="w3-text-grey">This string defines the starting web location (default setting = main.html).</p><br>
                         
-                        <h5>Item 5</h5>
-                        <p class="w3-text-grey">desc</p>
+                        <h5>ErrorHTML</h5>
+                        <p class="w3-text-grey">This string defines the error web location(default setting = errorPage.html). This page pops up if the input website is not defined.</p>
+                        
+                        <h5>LogFile</h5>
+                        <p class="w3-text-grey">This string defines the name of the .text file that stores the logs (default setting = logfile.txt).</p>
+                        
+                        <h5>WebContentLocation</h5>
+                        <p class="w3-text-grey">This string defines the address of the web content location where the html files are located (default setting = ../cont-enhanced/).</p>
+                        <h5>MAXPROCORTHREAD</h5>
+                        <p class="w3-text-grey">Multiprocessing configuration (default setting = 3).</p>
                     </div>
                     
-                    <div id="col2" class="w3-container menu w3-padding-48 w3-card">
-                        <h5>Item 1</h5>
-                        <p class="w3-text-grey">desc</p><br>
+                    <div id="Makefile" class="w3-container menu w3-padding-48 w3-card">
+                        <h5>.c codes</h5>
+                        <p class="w3-text-grey">The codes are in the src folder. All of them contain necessary function that are used in the main <b>simpleWebServer.c</b> file.</p><br>
                         
-                        <h5>Item 2</h5>
-                        <p class="w3-text-grey">desc</p><br>
+                        <h5>Makefile</h5>
+                        <p class="w3-text-grey">We can compile and bind th .c files using Makefile.</p><br>
                         
-                        <h5>Item 3</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 4</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 5</h5>
-                        <p class="w3-text-grey">desc</p>
                     </div>
                         </div>
             </div>

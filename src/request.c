@@ -7,18 +7,13 @@
 struct Request* parse_request(char * buf, struct Config *conf) {
 	struct Request *req = (struct Request *) malloc(sizeof(struct Request));
 
-	// TODO: change this into a cleaner code that is not reminiscent of Arshia's
-
-	char *start = strstr(buf, "User-Agent:") + 12;
-	char *end = strstr(start, "\n");
-	int length = (end - start);
-	char *user_info = malloc(length + 1);
-	memcpy(user_info, start, end - start);
-	user_info[length] = '\0';
-	
+	char *buf_start = strstr(buf, "User-Agent:") + 12;
+	char *buf_end = strstr(buf_start, "\n");
+	char *user_info = malloc(buf_end - buf_start + 1);
+	memcpy(user_info, buf_start, buf_end - buf_start);
+    
+	user_info[buf_end - buf_start] = '\0';
 	req->user_info = user_info;
-
-	// TODO: change this into a cleaner code that is not reminiscent of Arshia's
 
 	char location[INNER_BUFFER_SIZE];
 	int start_loc = 5;
@@ -27,6 +22,7 @@ struct Request* parse_request(char * buf, struct Config *conf) {
 	location[end_loc - start_loc] = '\0';
 
 	if (start_loc == end_loc) {
+        
 		strcpy(location, conf->StartingPageName);
 		
 		start_loc = 0;

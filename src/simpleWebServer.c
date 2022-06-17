@@ -17,8 +17,8 @@
 #include <signal.h>
 
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
+    
 	printf("Starting server ...\n");
 	printf("multithread mode setup ...\n");
 	signal(SIGINT, interrupt_handler);
@@ -28,32 +28,30 @@ int main(int argc, char *argv[])
 	// construct 10 workers with the same configuration
 	construct_workers(10, conf);
 	
-	// TODO: This place is very similar to Arshia's please change it ... 
-	
 	fd_server = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 	
 	if (fd_server == -1)
 	{
-		printf("socket failed with error\n");
+		printf("An error has occured in socket!\n");
 		return 1;
 	}
-	socklen_t sin_len;
-	struct sockaddr_in server_addr;
-	struct sockaddr_in client_addr;
-	sin_len = sizeof(client_addr);
 
-	server_addr.sin_family = AF_INET;
-	server_addr.sin_addr.s_addr = INADDR_ANY;
-	server_addr.sin_port = htons(conf->PORTNUM);
+	struct sockaddr_in server_addr;
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = INADDR_ANY;
+    server_addr.sin_port = htons(conf->PORTNUM);
+    
+	struct sockaddr_in client_addr;
+	socklen_t sin_len = sizeof(client_addr);
 
 	if (bind(fd_server, (struct sockaddr*) &server_addr, sizeof(server_addr)) == -1) {
-		printf("bind failed with error");
+        
+		printf("An error has occured in binding!");
 		close(fd_server);
 		return 1;
-	}
-	
-	if (listen(fd_server, 10) == -1) {
-		printf("listen failed with error");
+	} else if (listen(fd_server, 10) == -1) {
+        
+		printf("An error has occured in listening!");
 		close(fd_server);
 		return 1;
 	}

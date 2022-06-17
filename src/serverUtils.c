@@ -21,8 +21,6 @@ after the request is done, the log is added to the end of the all_logs in logger
 */
 
 void *handle_request(void * worker_id) {
-	
-    // TODO: change if very close to arshia's code
     
     int worker_index = *(int *)worker_id;
 	struct Worker *worker = &all_workers[worker_index];
@@ -57,7 +55,7 @@ void *handle_request(void * worker_id) {
 
 	struct Request * req = parse_request(buf, worker->config);
 
-	add_msg(worker->log, "connection accepted!");
+	add_msg(worker->log, "Connection accepted!");
 
 	set_user_info(worker->log, req->user_info);
 	if (req->type == WEBPAGE_REQUEST) {
@@ -70,7 +68,7 @@ void *handle_request(void * worker_id) {
 
 			printf("Not found\n");
 
-			add_msg(worker->log, "no html file found!");
+			add_msg(worker->log, "No html file found!");
 			webpage = read_webpage(path_join(worker->config->WebContentLocation, worker->config->ErrorHTML));
 		}
 		write(worker->socket, webpage, strlen(webpage) - 1);
@@ -93,7 +91,7 @@ void *handle_request(void * worker_id) {
 	} else {
 		add_msg(worker->log, "Request type is not implemented!");
 	}
-	add_msg(worker->log, "client connection closed!");
+	add_msg(worker->log, "Client connection closed!");
 	worker->busy = 0;
 	close(worker->socket);
     
@@ -154,7 +152,7 @@ void save_logs() {
 	FILE *all_log_file = fopen(address_all_logs, "a");
 	FILE *new_log_file = fopen(address_new_logs, "w");
 	if (all_log_file == NULL || new_log_file == NULL) {
-	 	printf("could not open logfile!\n");
+	 	printf("Could not open logfile!\n");
 		exit(1);
 	}
 	

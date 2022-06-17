@@ -4,7 +4,7 @@ Content-Type: text/html; charset=UTF-8
 <!DOCTYPE html>
 <html>
     <head>
-        <title>W3.CSS Template</title>
+        <title>Simple Web Server - second page</title>
         <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
                 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -36,7 +36,7 @@ Content-Type: text/html; charset=UTF-8
                     <a href="main.html#" class="w3-button w3-block w3-black">HOME</a>
                 </div>
                 <div class="w3-col s6">
-                    <a href="secondPage.html#about" class="w3-button w3-block w3-black">ABOUT</a>
+                    <a href="secondPage.html#" class="w3-button w3-block w3-black">HOW TO RUN THE PROJECT?</a>
                 </div>
             </div>
         </div>
@@ -57,68 +57,23 @@ Content-Type: text/html; charset=UTF-8
             <!-- About Container -->
             <div class="w3-container" id="about">
                 <div class="w3-content" style="max-width:700px">
-                    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE PROJECT</span></h5>
-                    <p>Our Project...</p>
-                    <p>Our Project again!</p>
+                    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">HOW TO RUN THE PROJECT?</span></h5>
+                    <p>Please follow this procedure:</p>
                     <div class="w3-panel w3-leftbar w3-light-grey">
-                        <p><i>"Our project but classy" Fresh is the new smart!</i></p>
-                        <p>os os os</p>
+                        <p><i>
+                            <ol>
+                                <li>Go to the <b>src</b> directory.</li>
+                                <li>Run <b>make install</b> to place the executable file in <b>/usr/local/bin/</b>.</li>
+                                <li>Run <b>make clean</b> in case you want to delete the previous log files.</li>
+                                <li>Run <b>make all TYPE=(TYPE) PLATFORM=__(PLATFORM)__</b>, where TYPE can be multiProcess or multiThread, and PLATFORM can be either MAC or LINUX.</li>
+                                <li>From now on you can easily run <b>simple-c-server</b> to set up the web server.</li>
+                                <li>Open Firefox browser and insert <b>localhost:8080</b>.</li>
+                            </ol>
+                            
+                        </i></p>
                     </div>
-                    <img src="/w3images/coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-                        <p><strong>Bold 1:</strong> little 1</p>
-                        <p><strong>Bold 2:</strong> little 2</p>
+                   
                         </div>
-            </div>
-            
-            <!-- Menu Container -->
-            <div class="w3-container" id="2 cols">
-                <div class="w3-content" style="max-width:700px">
-                    
-                    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE DESC</span></h5>
-                    
-                    <div class="w3-row w3-center w3-card w3-padding">
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'col1');" id="myLink">
-                            <div class="w3-col s6 tablink">col1</div>
-                        </a>
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'col2');">
-                            <div class="w3-col s6 tablink">col2</div>
-                        </a>
-                    </div>
-                    
-                    <div id="col1" class="w3-container menu w3-padding-48 w3-card">
-                        <h5>Item 1</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 2</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 3</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 4</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 5</h5>
-                        <p class="w3-text-grey">desc</p>
-                    </div>
-                    
-                    <div id="col2" class="w3-container menu w3-padding-48 w3-card">
-                        <h5>Item 1</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 2</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 3</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 4</h5>
-                        <p class="w3-text-grey">desc</p><br>
-                        
-                        <h5>Item 5</h5>
-                        <p class="w3-text-grey">desc</p>
-                    </div>
-                </div>
             </div>
             
             <!-- End page content -->

@@ -16,6 +16,7 @@ ifndef PLATFORM
 endif
 
 all:
+	@mkdir -p ../bin;
 	@mkdir -p obj
 	@gcc -Wall -c logger.c -o obj/logger.o;
 	@gcc -Wall -c request.c -o obj/request.o;
@@ -44,12 +45,10 @@ all:
 
 install:
 	@echo Installing ...
-	@mkdir -p ../bin;
-	@mv ../bin/simple-c-server /usr/local/bin/
+	@cp ../bin/simple-c-server /usr/local/bin/
 	@mkdir -p /etc/simpleWebServer/
 	@rm -f /etc/simpleWebServer/*
-	@cp -r configurations/server.conf configurations/WindowsServer.conf /etc/simpleWebServer
 	@echo WebContentLocation = $(path_to_content_files_unix) >> /etc/simpleWebServer/server.conf
 clean:
-	@rm -f ../bin/*;
+	@rm -rf ../bin;
 	@rm -rf obj

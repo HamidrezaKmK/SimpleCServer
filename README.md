@@ -1,4 +1,5 @@
 # Simple Web Server
+![screen-shot-of-the-first-page](figs/sample-shot.png)
 ### Project Explanation
 
 In this project, we present a web server that serves the users' requests using multiple threads or processes. 
